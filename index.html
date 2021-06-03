@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>Home</title>
 </head>
     <body>
-        <header>
+        <header class="titulo">
             <h1>MedSoft</h1>
             <p>DIGITE SEU LOGIN E SENHA PARA ACESSAR</p>
         </header>
         <div class="container">
-            <form>
+            <form class="login-form">
                 <div class="info">
-                    <input type="text" class="input" placeholder="Login">
-                   
+                    <input type="text" class="input" placeholder="Login" required="required">    
                 </div>
                 <div class="info">
-                     <input type="password" name="senha" class="input" placeholder="Senha">
+                     <input type="password"class="input" placeholder="Senha" required="required">
                 </div>
                 <div class="link">
-                    <a href="#">Esqueci minha senha</a>
+                    <a href="#">Esqueci minha senha <i class="far fa-question-circle"></i></a>
                 </div>
                 <div class="btn">
                     <button>ENTRAR</button>
@@ -30,7 +30,7 @@
             </form>
         </div>
         <footer>
-            copyright 2021 Alisson
+            &copy;Copyright 2021 Alisson Ferreira Evangelista
         </footer>
     </body>
 </html>

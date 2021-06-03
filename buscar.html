@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<title>Buscar</title>
+	</head>
+	<body>
+		<header class="bnt-cadastro">
+			<div class="icon">
+				<span>
+					<a href="CadastroMedico.html" class="icon-seach">
+						<i class="fas fa-plus-circle"></i>
+					</a>
+				</span>
+				<span><a href="CadastroMedico.html">Cadastro Médico</a></span>
+			</div>
+			<div class="icon">
+				<span>
+					<a href="CadastroFuncionario.html" class="icon-seach">
+						<i class="fas fa-plus-circle"></i>
+					</a>
+				</span>
+				<span><a href="CadastroFuncionario">Cadastro Funcionário</a></span>
+			</div>
+			<div class="icon">
+				<span>
+					<a href="CadastroPaciente.html" class="icon-seach">
+						<i class="fas fa-plus-circle"></i>
+					</a>
+				</span>
+				<span><a href="CadastroPaciente.html">Cadastro Paciente</a></span>
+			</div>
+			<div class="icon">
+				<span>
+					<a href="Voltar.html" class="icon-seach"><i class="fas fa-arrow-circle-left"></i></a>
+				</span>
+				<span><a href="Voltar.html">Voltar</a></span>
+			</div>
+		</header>
+		<nav>
+			<form class="seach-form">
+				<fieldset class="seach-fildser">
+					<legend>Buscar Cadastro</legend>
+					<div class="grupo-1">
+						<label>Nome</label>
+						<input type="text" class="buscar-nome" required="required">
+							<div class="btn-buscar" onclick="Seach()">
+								 <i class="fas fa-search"></i>
+							</div>
+						</span>
+					</div>
+					<div class="grupo-2">
+						<label>CRM</label>
+						<input type="number" class="buscar-nome">
+						<select>
+							<option></option>
+							<option>CE</option>
+							<option>SC</option>
+							<option>SP</option>
+						</select>
+						<i class="far fa-question-circle" title="Inseir o CRM apenas se for consultar o Médico" ></i>
+					</div>
+					<div class="grupo-3">
+						<span>
+							<input type="radio" name="checkbox">Funcionário
+						</span>
+						<span>
+							<input type="radio" name="checkbox">Médico
+						</span>
+						<span>
+						<input type="radio" name="checkbox">Paciente
+						</span>
+					</div>
+				</fieldset>
+				<fieldset class="resultado-fildset" id="resultado-fildset">
+					<legend>Resultado</legend>
+					<div class="table">
+						<div class="title-resultado">
+							<div class="titulo-cabeca">
+								<span>COD</span>
+							</div>	
+							<div class="titulo-cabeca">
+								<span>TIPO</span>
+							</div>	
+							<div class="titulo-cabeca">
+								<span>NOME</span>
+							</div>	
+							<div class="titulo-cabeca">
+								<span>AGENDA</span>
+							</div>	
+						</div>
+						<hr id="h1-titulo">
+						<div class="resultado-busca">
+							<div class="info-resultado">
+								<span>001102</span>
+							</div>
+							<div class="info-resultado">
+								<span>Médico</span>
+							</div>
+							<div class="info-resultado">
+								<span>Alisson Ferreira Evangelista</span>
+							</div>
+							<div class="info-resultado">
+								<a href="Agenda.html" class="icon-agenda">
+									<i class="far fa-calendar-alt"></i>
+								</a>
+							</div>
+						</div>
+						<hr>
+						<div class="resultado-busca">
+							<div class="info-resultado">
+								<span>001541</span>
+							</div>
+							<div class="info-resultado">
+								<span>Paciente</span>
+							</div>
+							<div class="info-resultado">
+								<span>Alisson Ferreira Evangelista</span>
+							</div>
+							<div class="info-resultado">
+								<a href="Agenda.html" class="icon-agenda">
+									<i class="far fa-calendar-alt"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</nav>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

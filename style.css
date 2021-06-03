@@ -1,45 +1,136 @@
-h1, p{
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+.titulo{
 	text-align: center;
 }
 body{
 	background: #ecf0f1;
+	font-family: 'Abel', sans-serif;
 }
-form{
+.login-form{
 	height: 300px;
 	width: 400px;
-	border: 1px solid red;
 	margin: auto;
-
 }
 .info{
 	margin: auto;
 	margin-top: 30px;
 	width: 200px;
 	height: 45px;
-	
 }
-input{
+.input{
 	width: 195px;
 	height: 35px;
-	border-radius: 20px;
-	border: 2px solid #3498db;
+	border: 1px solid #7f8c8d;
 	font-size: 18px;
 	padding: 2px;
 }
 .link{
 	margin: auto;
 	margin-top: 10%;
-	width: 180px;
-	
+	width: 150px;	
+	text-decoration: none;
+}
+.link>a{
+	text-decoration: none;
 }
 .btn{
 	width: 150px;
-	border: 1px solid red;
 	margin: auto;
 	margin-top: 5%;
 }
-button{
+.btn>button{
 	width: 145px;
 	height: 35px;
-
 }
+footer{
+	margin-top: 10%;
+}
+/*Index Finalizado ->/\ | \/-> Inicio do Menu*/
+
+
+/*Menu Finalizado ->/\ | \/-> Inicio do Buscar*/
+.icon{
+	height: 80px;
+	width: 150px;
+	display: inline-grid;
+	flex-wrap: wrap;
+}
+.btn-buscar{
+	margin-left: 10px;
+	cursor: pointer;
+	font-size: 20px;
+}
+.buscar-nome{
+	margin-left: 10px;
+}
+
+.icon-seach>i{
+	font-size: 40px;
+	color: black;
+}
+.bnt-cadastro{
+	display: inline-flex;
+	margin: 10px 5px 10px 10px ;
+}
+span{
+	text-align: center;
+	justify-items: center;
+}
+span>a{
+	text-decoration: none;
+	color: black;
+}
+.grupo-1{
+	width: 400px;
+	height: 30px;
+	display: inline-flex;
+}
+.grupo-1>input{
+	width: 300px;
+	height: 20px;
+}
+.grupo-2{
+	width: 400px;
+	height: 30px;
+	margin-top: 10px;
+}
+.grupo-2>select{
+	height: 25px;
+	width: 60px;
+}
+.grupo-2>input{
+	height: 20px;
+}
+.grupo-3{
+	height: 100px;
+	width: 200px;
+	display:inline-grid;
+	justify-items: left;
+	margin-top: 5px;
+}
+.title-resultado, .resultado-busca{
+	display: inline-flex;
+}
+.titulo-cabeca, .info-resultado{
+	width: 330px;
+	text-align:  center;
+	margin: auto;
+}
+.info-resultado{
+	margin-top: 5px;
+}
+.icon-agenda>i{
+	font-size: 20px;
+	color: black;
+}
+#h1-titulo{
+	border: 2px solid gray;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+/*Buscar Finalizado ->/\ | \/-> Inicio do Cadastro*/
