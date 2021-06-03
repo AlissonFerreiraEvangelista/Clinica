@@ -46,6 +46,28 @@ footer{
 	margin-top: 10%;
 }
 /*Index Finalizado ->/\ | \/-> Inicio do Menu*/
+.selecao-menu{
+	margin: auto;
+	width: 210px;
+}
+.btn-m{
+	width: 180px;
+	height: 40px;
+	margin: 10px;
+	cursor: pointer;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 5px;	
+}
+.btn-menu{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	line-height:250%;
+}
+.btn-m:hover{
+	border: 2px solid gray;
+}
 
 
 /*Menu Finalizado ->/\ | \/-> Inicio do Buscar*/
