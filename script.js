@@ -4,3 +4,6 @@ window.onload =	function() { document.getElementById('resultado-fildset').style.
 function Seach(){
 	document.getElementById('resultado-fildset').style.visibility = 'visible';
 }
+
+    
+
