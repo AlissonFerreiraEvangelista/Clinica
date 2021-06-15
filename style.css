@@ -172,7 +172,7 @@ input[type=number] {
 	margin-left: 10px;
 }
 .agenda-grupo>label{
-	width: 100px;
+	width: 115px;
 }
 .info-agenda{
 	width: 200px;
@@ -246,3 +246,27 @@ input[type=number] {
 .date-grid button.is-selected {
   background-color: #25CCF7;
 }
+/* Cadastro Médico */
+
+.container-medico{
+	width: 100%;
+	display: inline-grid;
+	padding: 2px;
+}
+.label-medico{
+	margin-left: 20px;
+}
+.agenda-grupo>i{
+	margin: 5px;
+}
+.medico-button{
+	width: 340px;
+	height: 60px;
+	margin: 50px;
+}
+.medico-button>button{
+	height: 40px;
+	width: 150px;
+	margin: 10px 5px;
+}
+

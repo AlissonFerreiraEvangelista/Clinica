@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+		<title>Cadastrar Medico</title>
+	</head>
+	<body>
+		<header class="bnt-cadastro">
+			<nav>
+				<div class="icon">
+					<span>
+						<a href="CadastroMedico.html" class="icon-seach">
+							<i class="fas fa-plus-circle"></i>
+						</a>
+					</span>
+					<span id="Inclui">
+						<a href="#">Inclui</a>
+					</span>
+				</div>
+				<div class="icon">
+					<span>
+						<a href="#" class="icon-seach">
+							<i class="fas fa-pencil-alt"></i>
+						</a>
+					</span>
+					<span><a href="#">Editar</a></span>
+				</div>
+				<div class="icon">
+					<span>
+						<a href="#" class="icon-seach">
+							<i class="fas fa-times-circle"></i>
+						</a>
+					</span>
+					<span><a href="#">Excluir</a></span>
+				</div>
+				<div class="icon">
+					<span>
+						<a href="Menu.html" class="icon-seach"><i class="fas fa-arrow-circle-left"></i></a>
+					</span>
+					<span><a href="Menu.html">Voltar</a></span>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<form class="medico-form">
+				<fieldset class="medico-fildser">
+					<legend>Cadastro Médico</legend>
+					<div class="container-medico">
+						<div class="agenda-grupo">
+							<label>Nome</label>
+								<div class="input-agenda">
+									<input type="text" class="info-agenda" required>	
+								</div>	
+							<label class="label-medico">Data Nascimento</label>	
+								<div class="input-agenda">
+									<input type="date" readonly>
+								</div>			
+						</div>
+						<div class="agenda-grupo">
+							<label>Telefone</label>
+								<div class="input-agenda">
+									<input type="number" class="info-agenda" required readonly>
+								</div>	
+							<label class="label-medico">Complemento</label>
+								<div class="input-agenda">
+									<input type="text">
+								</div>
+						</div>
+						<div class="agenda-grupo">
+							<label>Endereço</label>
+							<div class="input-agenda">
+								<input type="text"  class="info-agenda" readonly>
+							</div>
+						</div>
+						<div class="agenda-grupo">
+							<label>Sigla do Conselho</label>
+								<div class="input-agenda">
+									<input type="text" class="info-agenda" readonly>
+								</div>
+						</div>
+						<div class="agenda-grupo">
+							<label>Nº do Classe</label>
+								<div  class="input-agenda">
+									<input type="text" class="info-agenda" readonly>
+								</div>
+						</div>
+						<div class="agenda-grupo">
+							<label>RQE</label>
+							<div class="input-agenda">
+								<input type="text" class="info-agenda" readonly>
+							</div>
+							<i class="far fa-question-circle" title="Inseir o RQE, caso possua"></i>
+						</div>
+					</div>	
+				
+				</fieldset>
+			</form>
+			<div class="medico-button">
+				<button>Cadastrar</button>
+				<button>Cancelar</button>
+			</div>
+		</main>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
